@@ -1,25 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3 {
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 p {
@@ -29,45 +14,42 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 #features {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
 }
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 #cta {
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
 }
 
 #footer {
   background-color: #fff;
-  text-align: center;
-  padding: 7% 15%;
 }
 
 .container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
 
@@ -87,8 +69,13 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 .iphone-mockup {
@@ -103,8 +90,11 @@ p {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 .icon {
@@ -116,14 +106,15 @@ p {
   color: #ff4c68;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .testimonials-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-}
-
-.carousel-item {
-  padding: 7% 15%;
 }
 
 .press-logo {
@@ -131,13 +122,17 @@ p {
   margin: 20px 20px 50px;
 }
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .pricing-colum {
   padding: 3% 2%;
 }
 
-.cta-title {
-  font-weight: 900;
-  font-size: 3.5rem;
+.pricing-text {
+  font-size: 3rem;
   line-height: 1.5;
 }
 
