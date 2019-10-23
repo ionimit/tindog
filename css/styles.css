@@ -11,47 +11,24 @@ p {
   color: #8f8f8f;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
-#features {
-  background-color: #fff;
-  position: relative;
-}
-
-#testimonials {
-  background-color: #ef8172;
-  color: #fff;
-}
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-#pricing {
-  padding: 100px;
-}
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-#footer {
-  background-color: #fff;
-}
+/* Containers */
 
 .container-fluid {
   padding: 7% 15%;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
 }
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navbar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -72,6 +49,13 @@ p {
   font-weight: lighter;
 }
 
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 .big-heading {
   font-weight: 900;
   font-size: 3.5rem;
@@ -87,6 +71,12 @@ p {
 
 .download-btn {
   margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+  position: relative;
 }
 
 .feature-box {
@@ -106,6 +96,12 @@ p {
   color: #ff4c68;
 }
 
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
 .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
@@ -117,9 +113,22 @@ p {
   margin: 20px;
 }
 
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
 }
 
 .section-heading {
@@ -135,6 +144,11 @@ p {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+/* Cta */
+
+
+/* Footer */
 
 .footer-icon {
   margin: 20px 10px;
